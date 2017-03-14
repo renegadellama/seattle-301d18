@@ -14,6 +14,7 @@
 
 .heading-group-h1 {
   max-width: 80%;
+  margin-left:auto;
 }
 
 #filters select {
@@ -26,6 +27,14 @@
   .heading-group-h1 {
     padding: .1em .1em .1em 2em;
     float: none;
+  }
+
+  .icon-menu{
+    visibility: hidden;
+  }
+
+  .main-nav li{
+    display: inline-block;
   }
 
   #filters select {

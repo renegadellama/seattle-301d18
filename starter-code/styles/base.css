@@ -20,6 +20,12 @@ p {
 address {
   display: inline-block;
 }
+img{
+  width: 20vw;
+  border: solid;
+  border-width: thin;
+  
+}
 
 /*LINK STYLES
 =======================================*/

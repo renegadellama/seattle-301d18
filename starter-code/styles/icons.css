@@ -22,7 +22,12 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+.main-nav ul {
+  display: none;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
 .icon-home:before {
 	content: "\e908";
 }
@@ -40,6 +45,7 @@
 }
 .icon-menu:before {
 	content: "\e902";
+	font-size: 10vw;
 }
 .icon-link:before {
 	content: "\e903";
